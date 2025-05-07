@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'sinatra-activerecord'
+gem 'pg'
+gem 'redis'
+gem 'rack'
+gem 'rackup'
+gem 'puma'
+gem 'dotenv'
+gem 'rspec'
+gem 'rack-test'
+gem 'database_cleaner-active_record'

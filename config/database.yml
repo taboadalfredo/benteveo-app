@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sinatra_api_dev
+  pool: 5
+  username: postgres
+  password: postgres
+  host: db
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sinatra_api_test
+  pool: 5
+  username: postgres
+  password: postgres
+  host: db
